@@ -8,7 +8,6 @@ html {
 
 *, *::before, *::after {
     box-sizing: inherit;
-
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
@@ -179,13 +178,14 @@ article img {
 
 .ct-menu {
     text-align: left;
+    margin-left: 50px;
 }
 
-.bot {
+.links-cd {
     margin-top: 30px;
 }
 
-.bot a{
+.links-cd a{
     margin-left: 15vh;
     color: darkred;
     font-size: 20px;
@@ -194,16 +194,22 @@ article img {
     text-align: left;
 }
 
-.bot a:hover {
+.links-cd a:hover {
     text-decoration: underline;
 }
 
-.links-cd-1 {
+.links-cd {
+    
+    background-color: green;
+}
 
+.links-cd-1 {
+    background-color: red;
 }
 
 .links-cd-2 {
-
+    margin: auto;
+    background-color: blue;
 }
 
 .ct-menu p {
