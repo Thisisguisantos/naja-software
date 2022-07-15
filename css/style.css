@@ -130,7 +130,7 @@ article {
 
 }
 
-article h2 {
+article h1 {
     color: #0c0c0c;
     margin-top: 50px;
     font-size: 50px;
@@ -203,7 +203,7 @@ article img {
 }
 
 .links-cd-1 {
-    margin-left: 115px;
+    margin-left: 113px;
     justify-content: left;
 }
 
@@ -238,7 +238,7 @@ article img {
     
 }
 
-div h3 {
+div h2 {
     margin-top: 100px;
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
@@ -267,7 +267,27 @@ div img {
 }
 
 footer {
+    display: flex;
     width: 100vw;
     height: 30vh;
-    background-color: #282828;
+    background-color: #ecebe9;
+    
+}
+
+footer img {
+    background-color: blue;
+    margin-top: 15px;
+    margin-left: 30px;
+    height: 50px;
+}
+
+footer .dir-res {
+    float: left;
+    margin-top: 70px;
+    background-color: green;
+    height: 15px;
+}
+
+.inf {
+    margin: 10px;
 }
