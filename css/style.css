@@ -186,7 +186,7 @@ article img {
 }
 
 .links-cd a{
-    margin-left: 15vh;
+    
     color: darkred;
     font-size: 20px;
     text-decoration: none;
@@ -199,15 +199,17 @@ article img {
 }
 
 .links-cd {
-     
+    
 }
 
 .links-cd-1 {
-
+    margin-left: 115px;
+    justify-content: left;
 }
 
 .links-cd-2 {
-    margin: auto;
+    margin-left: 90px;
+    justify-content: right;
 }
 
 .ct-menu p {
@@ -224,7 +226,17 @@ article img {
     height: 90vh;
 }
 
+.texto-naja {
+    color: #0c0c0c;
+}
 
+.texto-naja p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #363636;
+    margin-bottom: 5vh;
+    
+}
 
 div h3 {
     margin-top: 100px;
