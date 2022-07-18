@@ -96,6 +96,16 @@ button:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
 aside img {
 
     box-sizing: border-box;
@@ -230,18 +240,6 @@ article img {
     height: 90vh;
 }
 
-.texto-naja {
-    color: #0c0c0c;
-}
-
-.texto-naja p {
-    font-size: 20px;
-    font-weight: bold;
-    color: #363636;
-    margin-bottom: 5vh;
-    
-}
-
 div h2 {
     margin-top: 100px;
     font-family: "Montserrat", sans-serif;
@@ -269,6 +267,36 @@ div img {
     margin-right: auto;
 
 }
+
+
+section h1 {
+    color: #0c0c0c;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+
+.extra{
+    display: flex;
+}
+
+.card{
+    width: 20rem;
+    height: 30rem;
+}
+
+.card-img-wrapper{
+    width: 100%;
+}
+
+
+
+
+
+
+
 
 
 
