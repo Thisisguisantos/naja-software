@@ -429,6 +429,7 @@ section p {
 
 
 
+
 .container{
 	max-width: 1170px;
 	margin:auto;
@@ -444,6 +445,7 @@ ul{
 }
 
 .footer{
+    margin-top: 100px;
 	background-color: #24262b;
     padding: 70px 0;
     line-height: 1.5;
@@ -493,7 +495,7 @@ ul{
 }
 
 .footer-col .social-links a{
-	display: inline-block;
+    display: inline-block;
 	height: 40px;
 	width: 40px;
 	background-color: rgba(255,255,255,0.2);
