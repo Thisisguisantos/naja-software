@@ -320,7 +320,7 @@ section p {
 
 .card {
     width: 18rem;
-    height: 25rem;
+    height: 30rem;
     position: relative;
 }
 
@@ -373,7 +373,7 @@ section p {
     font-family: "Montserrat", sans-serif;
     color: #eee;
     font-weight: 400;
-    width: 80%;
+    width: 50%;
     margin-bottom: 1rem;
 }
 
@@ -461,6 +461,7 @@ ul{
 	font-weight: 500;
 	position: relative;
 }
+
 .footer-col h4::before{
 	content: '';
 	position: absolute;
@@ -519,6 +520,7 @@ ul{
     margin-bottom: 30px;
 }
 }
+
 @media(max-width: 574px){
   .footer-col{
     width: 100%;
