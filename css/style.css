@@ -44,6 +44,8 @@ header {
 
 
 
+
+
 .logo {
     height: 30px;
     cursor: pointer;
@@ -271,6 +273,18 @@ div img {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 .card{
     width: 20rem;
     height: 20rem;
@@ -411,15 +425,6 @@ section p {
 
 
 
-
-
-
-
-
-
-
-
-
 .container{
 	max-width: 1170px;
 	margin:auto;
@@ -438,7 +443,7 @@ ul{
     margin-top: 100px;
     margin-bottom: 0;
 	background-color: #24262b;
-    padding: 70px 0;
+    padding: 20px 0;
     line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
 }
