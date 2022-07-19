@@ -78,7 +78,7 @@ header {
     font-size: 12px;
     margin-right: 17vw;
     padding: 9px 25px;
-    background-color: #ff1212;
+    background: linear-gradient(to left, #ff1212, darkred);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -86,8 +86,8 @@ header {
 }
 
 .navbar button:hover {
-    color: #fff;
-    background-color: #c01e1e;
+    background: linear-gradient(to left, #ff1220, #750000);
+    background-color: #967e7e;
 }
 
 
@@ -107,6 +107,9 @@ header {
 
 
 
+aside {
+
+}
 
 aside img {
 
@@ -117,9 +120,6 @@ aside img {
     padding-top: 3vw;
 }
 
-aside {
-
-}
 
 aside h1 {
     color: #0c0c0c;
@@ -365,7 +365,7 @@ section p {
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
     font-size: .9rem;
-    color: #ff4081;
+    color: darkred;
     margin-bottom: 1rem;
 }
 
@@ -380,9 +380,9 @@ section p {
 .card-info button {
     width: 8rem;
     height: 2.5rem;
-    background: #6a3093;
-    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-    background: linear-gradient(to left, #a044ff, #6a3093);
+    background: #ff1212;
+    background: -webkit-linear-gradient(to right, #ff1212, darkred);
+    background: linear-gradient(to left, #ff1212, darkred);
     font-family: "Montserrat", sans-serif;
     font-size: .8rem;
     color: #eee;
@@ -443,7 +443,7 @@ ul{
     margin-top: 100px;
     margin-bottom: 0;
 	background-color: #24262b;
-    padding: 20px 0;
+    padding: 25px 0;
     line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
 }
