@@ -291,6 +291,7 @@ div img {
 .card{
     width: 20rem;
     height: 20rem;
+    position: ;
 }
 
 .card-img-wrapper{
@@ -450,11 +451,16 @@ section p {
 .mapa-brasil {
     height: 400px;
     width: 400px;
-    margin-left: 980px;
+    margin: 0px auto;
+    display: flex;
+
 }
 
 
-
+table {
+    clear: left;
+    
+}
 
 
 
