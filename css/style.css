@@ -281,14 +281,57 @@ div img {
 
 
 
+.cards {
+    background-color: #0c0c0c;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
 
+.cards .content {
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    align-items: center;
+}
 
+.cards .content img{
+    max-width: 100%;
+    height: 400px;
+}
 
+.cards .content:hover img{
+    opacity: 0.5;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px 5px #d3d3d3;
+}
 
+.cards .content .texto{
+    position: relative;
+    margin-top: -360px;
+    text-align: center;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
 
+.cards .content:hover .texto {
+    visibility: visible;
+    transition-delay: 0.3s;
+    cursor: pointer;
+    text-shadow: 0 2px 0 rgb(44, 11, 231);
+}
 
+h3 {
+    color: #000;
+    font-size: 35px;
+}
 
- 
+p{
+    color: #fff;
+    font-size: 30px;
+}
 
 
 
