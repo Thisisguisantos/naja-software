@@ -325,24 +325,13 @@ div img {
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+    
 }
 
 .texto button:hover {
     background: linear-gradient(to left, #ff1220, #750000);
     background-color: #967e7e;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -358,12 +347,11 @@ div img {
     margin-top: -360px;
     text-align: center;
     visibility: hidden;
-    transition: 0.2s ease-in-out;
+
 }
 
 .cards .content:hover .texto {
     visibility: visible;
-    transition-delay: 0.5s;
     cursor: pointer;
     /*text-shadow: 0 1px 0 rgb(231, 11, 11);*/
 }
@@ -392,8 +380,9 @@ p{
 
 .brasil h1 {
     color: #0c0c0c;
-    margin-top: 50px;
+    margin-top: 100px;
     font-size: 38px;
+    margin-bottom: 60px;
     font-family: "Montserrat", sans-serif;
     text-align: center;
 }
