@@ -374,9 +374,8 @@ p{
 
 
 
-
 .brasil {
-  
+    
 }
 
 .brasil h1 {
@@ -398,35 +397,21 @@ p{
     margin-bottom: 50px;
 }
 
-.estados-do-brasil {
-    margin: 100px 100px 0px 100px;
-}
-
-.estados-1 {
-    background-color: red;
-    margin-left: 333px;
-    margin-right: 1200px;
-}
-
-.estados-2 {
-    margin-left: 600px;
-    margin-right: 900px;
-}
-
 .mapa-brasil {
     height: 400px;
     width: 400px;
     margin: 0px auto;
-    display: flex;
-
+    display: inline-block;
 }
 
 
 table {
-    clear: left;
-    
+    display: inline-block;
 }
 
+.brasil li {
+    
+}
 
 
 
