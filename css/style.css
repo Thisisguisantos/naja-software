@@ -128,7 +128,7 @@ aside img {
 aside h1 {
     color: #0c0c0c;
     margin-top: 6vw;
-    font-size: 50px;
+    font-size: 3em;
     font-family: "Montserrat", sans-serif;
     text-align: center;
 
@@ -139,7 +139,7 @@ aside p {
     padding: 5px;
     font-weight: bold;
     text-align: center;
-    font-size: 25px;
+    font-size: 2em;
     font-family: 'Roboto', sans-serif; 
 }
 
@@ -153,7 +153,7 @@ article {
 article h1 {
     color: #0c0c0c;
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 3em;
     font-family: "Montserrat", sans-serif;
     text-align: center;
 }
@@ -162,7 +162,7 @@ article p {
     color: #0c0c0c;
     font-weight: bold;
     text-align: center;
-    font-size: 25px;
+    font-size: 2em;
     font-family: 'Roboto', sans-serif; 
 }
 
@@ -178,7 +178,7 @@ article img {
 
 .links-erp a {
     color: darkred;
-    font-size: 20px;
+    font-size: 1.5em;
     text-decoration: none;
     margin: 40px;
 }
@@ -208,7 +208,7 @@ article img {
 .links-cd a{
     
     color: darkred;
-    font-size: 20px;
+    font-size: 1.5em;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
@@ -249,7 +249,7 @@ article img {
 div h2 {
     margin-top: 100px;
     font-family: "Montserrat", sans-serif;
-    font-size: 30px;
+    font-size: ;
     text-align: center;
 }
 
@@ -257,14 +257,13 @@ div p {
     margin-left: 80px;
     margin-right: 80px;
     padding: 20px;
-    font-size: 16px;
+    font-size: 1em;
     text-align: center;
     font-family: 'Roboto', sans-serif; 
 }
 
 div img {
     height: 50vh;
-    
 }
 
 
@@ -336,7 +335,7 @@ div img {
 h3 {
     font-family: "Montserrat", sans-serif;
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 2em;
     font-weight: bold;
 }
 
@@ -344,7 +343,7 @@ p{
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     color: #fff;
-    font-size: 25px;
+    font-size: 1em;
 }
 
 
@@ -384,7 +383,7 @@ p{
 .container-brasil-titulo {
     color: #0c0c0c;
     margin-top: 100px;
-    font-size: 38px;
+    font-size: 2em;
     margin-bottom: px;
     font-family: "Montserrat", sans-serif;
     text-align: center;
@@ -395,7 +394,7 @@ p{
     padding: 5px;
     font-weight: bold;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.2em;
     font-family: 'Roboto', sans-serif; 
     margin-bottom: 50px;
 }
@@ -411,12 +410,33 @@ table {
     display: flex;
     align-items: center;
     width: 300px;
+    color: darkred;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bolder;
+}
+
+table a {
+    color: darkred;
+    text-decoration: none;
+}
+
+.container-brasil li{
 
 }
 
-.brasil li {
+
+table a:hover {
+    text-decoration: underline;
+}
+
+.estados-01 li {
+  
+}
+
+.estados-02 {
     
 }
+
 
 
 
@@ -529,7 +549,7 @@ ul{
 }
 
 .footer-col .social-links a:hover{
-    color: #24262b;
+    color: darkred;
 	background-color: #ffffff;
 }
 
