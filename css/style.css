@@ -374,11 +374,14 @@ p{
 
 
 
-.brasil {
-    
+.container-brasil {
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    justify-content: center;
 }
 
-.brasil h1 {
+.container-brasil-titulo {
     color: #0c0c0c;
     margin-top: 100px;
     font-size: 38px;
@@ -387,7 +390,7 @@ p{
     text-align: center;
 }
 
-.brasil p {
+.container-brasil-paragrafo {
     color: #0c0c0c;
     padding: 5px;
     font-weight: bold;
@@ -398,15 +401,17 @@ p{
 }
 
 .mapa-brasil {
-    height: 400px;
-    width: 400px;
-    margin: 0px auto;
-    display: inline-block;
+    width: 420px;
+    height: 420px;
+
 }
 
 
 table {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    width: 300px;
+
 }
 
 .brasil li {
@@ -542,4 +547,4 @@ ul{
   .footer-col{
     width: 100%;
 }
-}
+}s
