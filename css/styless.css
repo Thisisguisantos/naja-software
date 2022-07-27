@@ -1,100 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 header {
-  background-color: #101026;
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
 }
 
-li{
-  list-style: none;
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
 }
 
-a{
-  color: #fff;
-  text-decoration: none;
+.logo img{
+    display: flex;
+    align-items: center;
+    height: 50px;
 }
 
-.navbar {
-  min-height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 34px;
+.logo h1 {
+    color: #fff;
 }
 
-.logo {
-  font-size: 2rem;
-  font-weight: bold;
+.nav-list {
+    display: flex;
+    align-items: center;
 }
 
-.nav-menu {
-  display: flex;
-  align-items: center;
-  gap: 60px;
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
 }
 
 .nav-link {
-  transition: 0.5s ease;
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
 }
 
-.nav-link:hover {
-  color: #0088d2;
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: linear-gradient(to left, #ff1212, darkred);
 }
 
-.hamburguer {
-  display: none;
-  cursor: pointer;
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
-.bar {
-  display: block;
-  width: 28px;
-  height: 3px;
-  border-radius: 2px;
-  margin: 5px auto;
-  background-color: #fff;
-  transition: all 0.3s ease-in-out;
+.mobile-menu-icon {
+    display: none;
 }
 
-@media (max-width:768px) {
-  .hamburguer {
-    display: block;
-  }
-
-  .hamburguer.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .hamburguer.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  .hamburguer.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
-
-  .nav-menu {
-    position: fixed;
-    left: -100%;
-    top: 70px;
-    gap: 0;
-    border-radius: 0 0 20px 20px;
-    background-color: #101026;
-    text-align: center;
-    flex-direction: column;
-    width: 100%;
-    transition: 0.3s;
-  }
-
-  .nav-item {
-    margin: 16px 0;
-  }
-
-  .nav-menu.active {
-    left: ;
-  }
+.mobile-menu {
+    display: none;
 }
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+}
+
+
+/*** FEITO POR: LARISSA V. KICH ***/

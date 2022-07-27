@@ -1,28 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styless.css">
-    <title>Dev Envolvente - MenuBar</title>
+    <title>Menu Responsivo</title>
 </head>
+
 <body>
     <header>
-        <nav class="navbar">
-            <a href="#" class="logo">Dev.</a>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
-            </ul>
-            <div class="hamburguer">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="img/logo1.png" alt="">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Segmentos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Área do Cliente</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre Nós</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre Representante</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="#">Contatos</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/close_white_36dp.svg" alt=""></button>
             </div>
         </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+        </div>
     </header>
-<script src="js/script.js"></script>
+
+    <script src="js/script.js"></script>
 </body>
+<!-- FEITO POR: LARISSA V. KICH  -->
+
 </html>
