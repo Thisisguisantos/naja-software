@@ -1,4 +1,4 @@
-const darkMode = document.getElementById('dark-mode')
+/*const darkMode = document.getElementById('dark-mode')
 const lightMode = document.getElementById('light-mode')
 
 darkMode.addEventListener('click', () => {
@@ -11,4 +11,4 @@ lightMode.addEventListener('click', () => {
     lightMode.classList.toggle('hide')
     darkMode.classList.remove('hide')
 
-})
+})*/
